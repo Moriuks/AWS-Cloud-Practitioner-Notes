@@ -37,6 +37,60 @@ Defines the size of an instance from a CPU,Memory,Storage and networking perspec
 2. Compute Optimized 
  -Higher perfomance on compute
  -High performance front-end,web servers and science applications
- -
+3. GPU
+ -Optimized for grapihc intensive applications
+4. Memory Optimized 
+ -Used for large-scale,enterprise-class,in-memory applications(SAP Hana)
+5. Storage Optimized 
+ -SSD backed instance storage for low latency
+ -High I/O performance
+ -analitic worloads
+ -Data filesystems and NoSQL databases
+ 
+#### Instances Purchasing Options 
+different payment options:
 
+* On-Demand Instances
+* Reserved Instances
+* Spot Instances
+* Dedicated Instances
+* Dedicated Host
+
+* On-Demand Instances
+ -can be launched at any time
+ -Can be used for as long as needed
+ -Used for irregular uninteruptable used
+ -Charged by the hour
+ -best for testing and development enviroment
+* Reserved Instances
+ -Purchased for a set period of time for a reduced cost (up to 70%)
+ -diferent ypes of reservations
+  -All Upfront: Complete payment for 1 or 3 years time frame
+  -Partial Upfront: Smaller upfront payment for smaller discount
+  -No Upfront: The smallest discount is applied
+ -Best applied for long term ,predictable workloads
+* Spot Instances
+ -Bid for unused EC2 Compute resources
+ -No guarentee of having the resource for fixed period of time
+ -Fluctuation of prices based on supply and demand
+ -Bid for larges EC2 instances at a very low price
+ -Useful for processsing data that can be suddenly interrupted like
+ -Batch jobs and backgrounf processing  
+
+#### EC2 Tanancy
+Tenancy relates to underlying hosting of your EC2 Instances
+
+**Shared** 
+- EC2 instances are launched on any available host with the required resources
+-The same host may be used by multiple customers
+**Dedicated Instances**
+-Instances hosted on hardware that no other customer can access
+-May be required to meet compliance
+
+
+ 
+* Dedicated Instances
+* Dedicated Host
+
+ 
 
