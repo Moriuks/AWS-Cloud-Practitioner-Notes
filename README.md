@@ -86,11 +86,33 @@ Tenancy relates to underlying hosting of your EC2 Instances
 **Dedicated Instances**
 -Instances hosted on hardware that no other customer can access
 -May be required to meet compliance
+-Incur additional instances
 
+**Dedicated Host**
+-Additional visibility and control of the physical host
+-Allows you to use the same host for a number of your instances
+-May be requiere to meet compliance
 
+#### Storage options 
+it can be clasified in two categories:
+* Persisten Storage 
+ -EBS are considered network attached devices
+ -similar like a hard-drive
+ -EBS volumes are physically separeted from EC2 instance
+
+* Ephemeral storage
+ -Instance back storage
+ -similar to laptop's internal hard disk
+ -they are physically attached to the host
+ -whe intance is stoped ...the info is lost
+
+#### Security
+ -security is a firewall for you instance
+ -some restrictions are:
+   -Source and destiniations
+   -Inbound and outbound rules
+   -Ports and protocols usage
  
-* Dedicated Instances
-* Dedicated Host
-
+ 
  
 
