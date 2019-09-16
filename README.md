@@ -113,6 +113,28 @@ it can be clasified in two categories:
    -Inbound and outbound rules
    -Ports and protocols usage
  
+ #### Elastic Load Balancing & Auto Scaling 
+Enables to manage the consuption of your resources.3 types of ELB:
+* Network load Balancer
+  -Useful for routing target to your VPC 
+  - Used for ultra-high performance for your aplication 
+  - Operates at the connection (Transport) level
+  -Low latencies
+* Aplication Load Balancer
+ -Feature set for your web applications with HTTp and HTTPS traffic
+ -operates at the request (aplication) level
+* Classic Load Balancer
+ -Used when you have an existing application running in the EC2-Classic enviroment
+ -Operates at the connection(transport) and the request (application) level
  
+ #### Setting up and ELB
+ 1. Define Load Balancer(define internal or external LB)
+ 2. Assign SG
+ 3. Configure SG
+ 4. Configure Health checks
+ 5. add EC2 Instances
+ 6. Add tags
  
-
+ #### Auto Scaling
+Is a mechanism that automatically allows you to increase or decrease resources.
+ 
