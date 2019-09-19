@@ -167,20 +167,20 @@ Is a managed services to help you deploy web aplications:
 
 #### AWS global Infrastructure
 
-* Availability zones (AZ's)
+*Availability zones (AZ's)
  - refered to AZ's
  - DataCenters of AWS
  - A single AZ can be comprised of multiple individual datacenters
  - Each AZ is separeted from other AZ's
-* Regions
+*Regions
  - Collection of AZ's that are geographically close to one another
  - Regions act independently of each other
  - Every region contains at least 2 AZ's
  - Most services within AWS are region specific
-* Edge Locations 
+*Edge Locations 
  - used by AWS cloudfront & lambda to cache data and reduces latency
  - primary used tu lower latency
-* Regional Edge Caches
+*Regional Edge Caches
  -A regional edge cache sits between yout cloudfront origin servers and the edge locations
  -They have larger cache-with than a edge location
  - Reduced latency
