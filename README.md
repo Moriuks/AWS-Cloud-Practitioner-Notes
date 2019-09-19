@@ -136,5 +136,33 @@ Enables to manage the consuption of your resources.3 types of ELB:
  6. Add tags
  
  #### Auto Scaling
-Is a mechanism that automatically allows you to increase or decrease resources.
+Is a mechanism that automatically allows you to increase or decrease resources depending on demand.
+
+### Elastic Beanstalk
+
+Is a managed services to help you deploy web aplications:
+* Perfect for engineers unfamiliar with AWS
+* Simple,effective and a quick solution 
+* Free to use,charging only for resources
+
+#### AWS Elastic Beanstal Architechture
+
+* Applications:
+ * A collection of different elements susch as enviroments,enviroments configurations,aplication versions
+* Application versions:
+ * Specific reference to a section of deployable code
+* Eviroment
+ * An enviroment refers to an application version deployed on AWS resources
+ * Enviroment configuration
+  * a collection of parameters that dictate the resources behavior within enviroment.
+* Configuration Template
+ * a baseline for creating a new template.
  
+ ### AWS LAMBDA
+ Lambda allows you to run your own code in response to events in a serverles enviroment.
+ 
+
+
+
+
+
