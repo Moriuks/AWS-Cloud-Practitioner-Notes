@@ -1,4 +1,4 @@
-# AWS-Cloud-Practitioner-Notes
+# AWS-Cloud-Practitioner-Notes-Prueba
 Notes for my first AWS certification.Cloud practitioner,intended for individuals who have the knowledge and skills necessary to effectively demonstrate an overall understanding of the AWS Cloud
 
 ## Overview
@@ -202,4 +202,15 @@ Data is mirror and the enviroment is script as a template(AMI's) that can scale 
 All key services running with the smallest possible impact
 **Multi-site**
 you duplicate your production enviorment(thats on-premise) in AWS
+
+#### Well Architechted FrameWork
+
+**5 Pillars**
+* Operational Excellence 
+  * running and monitoring system to help optimize and deliver value to the business
+* Cost Optimization 
+* Security
+* Performance efffiency 
+* Reliability
+
 
