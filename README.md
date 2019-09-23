@@ -1,4 +1,4 @@
-# AWS-Cloud-Practitioner-Notes-Prueba
+# AWS-Cloud-Practitioner-Notes
 Notes for my first AWS certification.Cloud practitioner,intended for individuals who have the knowledge and skills necessary to effectively demonstrate an overall understanding of the AWS Cloud
 
 ## Overview
@@ -206,11 +206,35 @@ you duplicate your production enviorment(thats on-premise) in AWS
 #### Well Architechted FrameWork
 
 **5 Pillars**
-* Operational Excellence 
+* **Operational Excellence 
   * running and monitoring system to help optimize and deliver value to the business
-* Cost Optimization 
-* Security
-* Performance efffiency 
-* Reliability
-
-
+  * Best practices:
+   * Prepare|-- Perform operation as code             
+   * Operate|-- Annotate documentation
+   * Evolve |-- Make frequent,small,reversible changes
+* **Security
+ * Manage and secure your infrastructure by protecting your data.Focus is put confidentiality.data integrity,acces management
+ * Best practices:
+  * IAM
+  * Detective controls
+  * Data protection
+* **Performance efffiency 
+ * Ensuring you have correctly specified resources to efficiently meet the demmands of your customers by monitoring performnace
+ * best practices:
+  * Selection
+  * Review
+  * Monitoring 
+  * tradesoff's
+* **Reliability
+ * How to maintain stability of your enviroment and recover from failures 
+ * Best practices:
+  * Foundations
+  * Change Managemnt
+  * Failure Managment
+* **Cost Optimization 
+  * Adapting your infrastructure as requirements changes based on worloas
+  * Best pratices:
+   * Cost-effective resource
+   * Matching suplly and demand
+   *Expenditure awareness
+ 
